@@ -155,7 +155,7 @@ Solder a 2 pin 2.54 mm connector plug female on J3 and two 3 pin 2.0 mm connecto
 ![pcb_board_connector](https://user-images.githubusercontent.com/57285584/117103254-8f97c300-adac-11eb-87b6-a52146dcb904.jpeg)
 
 - MIDI: mainly used as the default serial port for uploading Arduino sketches, and MIDI communication between the subboard and the motherboard. 
-- DEBUG: mainly used for software serial print
+- DEBUG: mainly used for software serial print (baud rate: 115200)
 - J3: mainly used for entering flash download mode by wire GPIO0 to ground with a jumper
 
 A USB to TTL Converter Module with 3 pin connector plug male is also needed. Recommended models: TTL-232R-3V3
